@@ -3,7 +3,7 @@ const { body } = require('express-validator');
 const { loginForm, registerForm, registerUser, confirmarCuenta, loginUser, cerrarSesion } = require('../controllers/autgController');
 const router = express.Router();
 
-//Comentario
+//Comentario edición del comentario
 
 router.get("/register", registerForm);
 router.post("/register", 
